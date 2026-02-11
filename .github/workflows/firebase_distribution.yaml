@@ -38,5 +38,5 @@ jobs:
         with:
           appId: ${{ secrets.FIREBASE_APP_ID }}
           token: ${{ secrets.FIREBASE_TOKEN }}
-          groups: testers
+          groups: "filmio tester"
           file: build/app/outputs/flutter-apk/app-release.apk
