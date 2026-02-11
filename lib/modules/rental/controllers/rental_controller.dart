@@ -9,6 +9,7 @@ class RentalController extends GetxController {
 
   var rentals = <RentalModel>[].obs;
   var totalCost = 0.obs;
+  var preferredKeyword = "".obs;
 
   @override
   void onInit() {
@@ -34,5 +35,10 @@ class RentalController extends GetxController {
   void calculateTotal() {
     totalCost.value =
         rentals.fold(0, (sum, item) => sum + item.totalPrice);
+  }
+
+  void updatePreference(String title) {
+    preferredKeyword.value =
+        title.split(" ").first.toLowerCase();
   }
 }

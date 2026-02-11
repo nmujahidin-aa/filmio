@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDC-sZrx4KLwWxxtJ__x7HtNorjzHRKMqE',
-    appId: '1:409465427852:web:ada1069fcfce717beda8a9',
-    messagingSenderId: '409465427852',
-    projectId: 'project-f6c8a027-6a46-4d5c-902',
-    authDomain: 'project-f6c8a027-6a46-4d5c-902.firebaseapp.com',
-    storageBucket: 'project-f6c8a027-6a46-4d5c-902.firebasestorage.app',
-    measurementId: 'G-Z5QP6DFTC7',
+    apiKey: 'AIzaSyAe0kjS7DEForHkJ-Od3eaDHcax87nk-i8',
+    appId: '1:104069586840:web:dc72fb98f3073b32f415ed',
+    messagingSenderId: '104069586840',
+    projectId: 'filmio-01',
+    authDomain: 'filmio-01.firebaseapp.com',
+    storageBucket: 'filmio-01.firebasestorage.app',
+    measurementId: 'G-2F407J4Z3G',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAumAIvBIWNpvbaCuA9igQN2RWKyT6iWLw',
-    appId: '1:409465427852:android:6a2910447a3267feeda8a9',
-    messagingSenderId: '409465427852',
-    projectId: 'project-f6c8a027-6a46-4d5c-902',
-    storageBucket: 'project-f6c8a027-6a46-4d5c-902.firebasestorage.app',
+    apiKey: 'AIzaSyCK52ApeeLJTsmYh_rin5vC4Rc6TsUPUgU',
+    appId: '1:104069586840:android:713dc055e6d3d45ef415ed',
+    messagingSenderId: '104069586840',
+    projectId: 'filmio-01',
+    storageBucket: 'filmio-01.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCBvG60OVU2ePVqPQPCQUZ1g1vzqyyBV4E',
-    appId: '1:409465427852:ios:bd766f9140017372eda8a9',
-    messagingSenderId: '409465427852',
-    projectId: 'project-f6c8a027-6a46-4d5c-902',
-    storageBucket: 'project-f6c8a027-6a46-4d5c-902.firebasestorage.app',
+    apiKey: 'AIzaSyAWtEIl8IWnM0GH07YIE4sqy75d0lpncts',
+    appId: '1:104069586840:ios:aabea81b489902aef415ed',
+    messagingSenderId: '104069586840',
+    projectId: 'filmio-01',
+    storageBucket: 'filmio-01.firebasestorage.app',
     iosBundleId: 'com.example.filmio',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCBvG60OVU2ePVqPQPCQUZ1g1vzqyyBV4E',
-    appId: '1:409465427852:ios:bd766f9140017372eda8a9',
-    messagingSenderId: '409465427852',
-    projectId: 'project-f6c8a027-6a46-4d5c-902',
-    storageBucket: 'project-f6c8a027-6a46-4d5c-902.firebasestorage.app',
+    apiKey: 'AIzaSyAWtEIl8IWnM0GH07YIE4sqy75d0lpncts',
+    appId: '1:104069586840:ios:aabea81b489902aef415ed',
+    messagingSenderId: '104069586840',
+    projectId: 'filmio-01',
+    storageBucket: 'filmio-01.firebasestorage.app',
     iosBundleId: 'com.example.filmio',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDC-sZrx4KLwWxxtJ__x7HtNorjzHRKMqE',
-    appId: '1:409465427852:web:5b60653180e6c527eda8a9',
-    messagingSenderId: '409465427852',
-    projectId: 'project-f6c8a027-6a46-4d5c-902',
-    authDomain: 'project-f6c8a027-6a46-4d5c-902.firebaseapp.com',
-    storageBucket: 'project-f6c8a027-6a46-4d5c-902.firebasestorage.app',
-    measurementId: 'G-19LV33BLXM',
+    apiKey: 'AIzaSyAe0kjS7DEForHkJ-Od3eaDHcax87nk-i8',
+    appId: '1:104069586840:web:e054c0784e11807ef415ed',
+    messagingSenderId: '104069586840',
+    projectId: 'filmio-01',
+    authDomain: 'filmio-01.firebaseapp.com',
+    storageBucket: 'filmio-01.firebasestorage.app',
+    measurementId: 'G-7C1L6HKYYW',
   );
 }

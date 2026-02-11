@@ -6,8 +6,11 @@ class MovieRepository {
 
   MovieRepository(this.apiService);
 
-  Future<List<MovieModel>> getMovies(String category) async {
-    final data = await apiService.fetchMovies(category);
-    return data.map<MovieModel>((e) => MovieModel.fromJson(e)).toList();
+  Future<List<MovieModel>> getMovies(String category, int page) async {
+    final data = await apiService.fetchMovies(category, page);
+    return data
+        .map<MovieModel>((e) => MovieModel.fromJson(e))
+        .toList();
   }
+
 }

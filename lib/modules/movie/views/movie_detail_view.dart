@@ -20,6 +20,15 @@ class MovieDetailView extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
+            Hero(
+              tag: "movie_${movie.id}",
+              child: Image.network(
+                "https://image.tmdb.org/t/p/w500${movie.posterPath}",
+                height: 300,
+                fit: BoxFit.cover,
+              ),
+            ),
+            const SizedBox(height: 12),
             Text(movie.overview),
             const SizedBox(height: 12),
             Text("Rating: ${movie.rating}"),
@@ -46,6 +55,7 @@ class MovieDetailView extends StatelessWidget {
                 );
 
                 await rentalController.rentMovie(rental);
+                rentalController.updatePreference(movie.title);
                 Get.snackbar("Success", "Movie rented!");
               },
               child: const Text("Rent Movie"),

@@ -1,4 +1,4 @@
-name: Build & Firebase Distribution
+name: filmio release
 
 on:
   push:

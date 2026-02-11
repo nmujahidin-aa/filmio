@@ -6,10 +6,10 @@ class ApiService {
   final String apiKey = dotenv.env['TMDB_API_KEY']!;
   final String baseUrl = dotenv.env['BASE_URL']!;
 
-  Future<List<dynamic>> fetchMovies(String category) async {
+  Future<List<dynamic>> fetchMovies(String category, int page) async {
     try {
       final url = Uri.parse(
-        '$baseUrl/movie/$category?api_key=$apiKey',
+        '$baseUrl/movie/$category?api_key=$apiKey&page=$page',
       );
 
       final response = await http.get(url);
