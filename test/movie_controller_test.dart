@@ -33,6 +33,7 @@ void main() {
                 overview: "Overview",
                 posterPath: "",
                 rating: 8.5,
+                backdropPath: "",
               )
             ]);
 
@@ -56,6 +57,7 @@ void main() {
                 title: "Page 1 Movie",
                 overview: "",
                 posterPath: "",
+                backdropPath: "",
                 rating: 8.0,
               )
             ]);
@@ -67,6 +69,7 @@ void main() {
                 title: "Page 2 Movie",
                 overview: "",
                 posterPath: "",
+                backdropPath: "",
                 rating: 7.5,
               )
             ]);

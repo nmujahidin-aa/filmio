@@ -23,7 +23,7 @@ class MovieDetailView extends StatelessWidget {
             Hero(
               tag: "movie_${movie.id}",
               child: Image.network(
-                "https://image.tmdb.org/t/p/w500${movie.posterPath}",
+                "https://image.tmdb.org/t/p/w500${movie.backdropPath}",
                 height: 300,
                 fit: BoxFit.cover,
               ),
